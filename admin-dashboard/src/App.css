@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 200px; /* Adjust this to fit your sidebar width */
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #f4f4f4;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.navbar {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
